@@ -1,6 +1,7 @@
 
 import './App.css';
 import Sidebar from './Sidebar';
+import Chat from './Chat.js'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <div className = "app__body">
         <Sidebar/>
+        <Chat/>
       </div>
     </div>
   );
